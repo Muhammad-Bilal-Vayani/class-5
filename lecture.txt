@@ -1,0 +1,28 @@
+// ***************Call backs***************
+A JavaScript callback is a function which is to be executed after another function has finished execution. A more formal definition would be - Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function.
+const Callback_function = ( )=>{
+//    setTimeout(()=>{
+//     console.log("function callback")
+//    },3000)
+// }
+// Callback_function()
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+    
+// }
+//*****************promises***************
+an object that will produce a single value some time in the future
+three stats
+1.Pending 
+2.Resolve in then
+3.Reject in catch
+new create an intant {empty object}
+const promises  = new Promise((resolve,reject)=>{
+//  resolve()
+    reject()
+})
+promises.then(()=>{
+    console.log("hello")
+}).catch(()=>{
+        console.log("promise reject")
+    })
